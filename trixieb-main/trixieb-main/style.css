@@ -1,0 +1,180 @@
+.navbar {
+    height: 10vh;
+}
+
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    color: rgb(235, 55, 94);
+}
+
+.btn {
+    padding: 12px 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 0%;
+    transition: all ease-in-out .5s;
+}
+
+.btn-brand {
+    background-color: rgb(207, 58, 145);
+    color: rgb(194, 101, 178);
+}
+
+.btn-brand:hover {
+    border: 2px solid  rgb(238, 75, 189);
+    color:rgb(161, 42, 177);
+}
+
+.navbar .nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+#banner {
+    background: url('trexie.jpg');
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 75px;
+    color: rgb(143, 1, 124);
+}
+
+#banner p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(1, 17, 4);
+}
+
+.card-imgh-top {
+     width:50%;
+}
+.card {
+    padding:25px 20px;
+    border:2px solid red;
+    transition: all ease-in .4s;
+}
+card :hover{
+    box-shadow:0 0 45
+    px 0 rgb(221,2,126, 0.995);
+    transform:scale(1.1);
+    background-color: blueviolet;
+}
+section {
+    padding: 100px 0;
+}
+#sugpon h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:65px;
+    color: rgb(29,119,7);
+    margin-bottom: 30px;
+}
+
+#about {
+    background-color:aqua;
+}
+#about img {
+    border: 5px solid skyblue;
+}
+#about .btn-brand{
+    background-color:rgb(28,157,174);
+    color: blanchedalmond;
+}
+#about h2 {
+    color: aqua;
+    font-size: 55px;
+}
+.wee{
+    width: 65px;
+}
+.testimonials{
+    border: 3px solid rgb(45,184,239);
+    padding:20px;
+    margin-top: 20px;
+}
+
+.testimonials img 
+{
+    width: 65px;
+}
+
+.testimonials:hover {
+    transform: scale(1.1)
+}
+.reviews h2 {
+    font-size:55px;
+}
+#faq {
+    background-color: aquamarine;
+}
+#faq-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordio-item {
+    margin-bottom:20px;
+    border-radius: 0;
+}
+.accordio-bottom{
+    background-color: aqua;
+    border: none;
+    border-bottom: 1px solid #87d;
+    border-radius: 0!important;
+    padding: 15px;
+    font-size:  18px;
+    font-weight: 500;
+    transition: background-color 0, 3s
+}
+
+.accordion-body{
+    border-left: 3px solid #313131;
+    padding: 10px 15px;
+    margin-left: 0px;
+    background-color: #fafcfa;
+}
+
+.accordion-button:not(collopse){
+    background-color: aqua(48,156,206);
+    color:bisque
+}
+
+.accordio-bottom:hover {
+    background-color: #313131;
+    color:rgb(42,344, 227);
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+.accordio-bottom {
+    background-color: antiquewhite;
+    border: none;
+    border-bottom: 1px solid #87d;
+    border-radius:  0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: aqua;
+    transition:background-color 0, 3s
+}
+.accordion-body {
+    border-left: 3px solid #87d
+    padding 0px;
+    margin-left : 0px;
+    background-color: #313131;
+
+}
+.accordion-button:not(collopse){
+    background-color:rgb(48,156,206);
+    color: beige;
+}
+accordio-bottom:hover {
+    background-color: #313131;
+    color:rgb(42,344, 227);
+}
